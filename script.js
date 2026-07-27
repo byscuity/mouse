@@ -4,3 +4,4 @@ banner.onmousemove = fuction(e){
  let y = e.pagey - banner.offsetTop;
  banner.style.setProperty('--x', x + 'px');
  banner.style.setProperty('--y', y + 'px');
+}
