@@ -48,7 +48,7 @@ body{
   z-index: 2;
   clip-path: circle(0px at var(--x) var(--y));
   transition: clip-path 0.1;
-  background:url(windSurfe.jpg);
+  background:url(soekarno-omar-JIP95VGNvNM-unsplash.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
