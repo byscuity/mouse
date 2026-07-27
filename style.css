@@ -43,7 +43,7 @@ body{
   font-weight: 800;
   text-transform: uppercase;
   front-size: 12em;
-  color: #fff
+  color: #fff;
   -webkit-text-stroke: 1px #fff;
   z-index: 2;
   clip-path: circle(0px at var(--x) var(--y));
@@ -56,5 +56,5 @@ body{
 }
 
 .banner:hover::after{
-  clip-path: circle(250px at var(--x) var(--y))
+  clip-path: circle(250px at var(--x) var(--y));
 }
