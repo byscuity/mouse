@@ -1,5 +1,5 @@
 let banner = document.querySelector('.banner');
-banner.onmousemove = fuction(e){
+banner.onmousemove = function(e){
  let x = e.pagex - banner.offsetLeft;
  let y = e.pagey - banner.offsetTop;
  banner.style.setProperty('--x', x + 'px');
